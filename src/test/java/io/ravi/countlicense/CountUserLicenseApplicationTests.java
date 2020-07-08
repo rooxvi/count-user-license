@@ -1,4 +1,4 @@
-package com.ciso.countlicense;
+package io.ravi.countlicense;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

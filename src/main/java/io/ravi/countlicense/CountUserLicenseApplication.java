@@ -1,4 +1,4 @@
-package com.ciso.countlicense;
+package io.ravi.countlicense;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

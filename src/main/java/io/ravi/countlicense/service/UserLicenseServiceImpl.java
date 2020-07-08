@@ -1,4 +1,4 @@
-package com.ciso.countlicense.service;
+package io.ravi.countlicense.service;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -12,9 +12,9 @@ import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.ciso.countlicense.entity.UserLicense;
-import com.ciso.countlicense.repository.UserLicenseRepository;
-import com.ciso.countlicense.util.UserLicenseUtils;
+import io.ravi.countlicense.entity.UserLicense;
+import io.ravi.countlicense.repository.UserLicenseRepository;
+import io.ravi.countlicense.util.UserLicenseUtils;
 
 @Service
 public class UserLicenseServiceImpl implements UserLicenseService {

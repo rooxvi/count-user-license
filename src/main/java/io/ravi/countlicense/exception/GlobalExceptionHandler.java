@@ -1,4 +1,4 @@
-package com.ciso.countlicense.exception;
+package io.ravi.countlicense.exception;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

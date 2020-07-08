@@ -1,4 +1,4 @@
-package com.ciso.countlicense.controller;
+package io.ravi.countlicense.controller;
 
 import java.util.List;
 import java.util.Map;
@@ -10,9 +10,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.ciso.countlicense.exception.Errors;
-import com.ciso.countlicense.exception.UserNotFoundException;
-import com.ciso.countlicense.service.UserLicenseService;
+import io.ravi.countlicense.exception.Errors;
+import io.ravi.countlicense.exception.UserNotFoundException;
+import io.ravi.countlicense.service.UserLicenseService;
 
 @RestController
 public class UserLicenseController {

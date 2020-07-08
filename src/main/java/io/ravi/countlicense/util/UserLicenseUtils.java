@@ -1,4 +1,4 @@
-package com.ciso.countlicense.util;
+package io.ravi.countlicense.util;
 
 import java.util.Map;
 

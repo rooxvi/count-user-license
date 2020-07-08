@@ -1,4 +1,4 @@
-package com.ciso.countlicense.exception;
+package io.ravi.countlicense.exception;
 
 public enum Errors {
 

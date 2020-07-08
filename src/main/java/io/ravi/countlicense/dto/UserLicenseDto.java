@@ -1,4 +1,4 @@
-package com.ciso.countlicense.dto;
+package io.ravi.countlicense.dto;
 
 public class UserLicenseDto {
 

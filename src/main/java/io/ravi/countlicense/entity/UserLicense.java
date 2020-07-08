@@ -1,4 +1,4 @@
-package com.ciso.countlicense.entity;
+package io.ravi.countlicense.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

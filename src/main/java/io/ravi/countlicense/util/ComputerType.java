@@ -1,4 +1,4 @@
-package com.ciso.countlicense.util;
+package io.ravi.countlicense.util;
 
 public enum ComputerType {
 	DESKTOP, LAPTOP

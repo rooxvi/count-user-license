@@ -1,0 +1,18 @@
+[
+  {
+    "userid": 1,
+    "license": [
+      {
+        "appid": 374,
+        "nooflicense": 2,
+        "computers": [
+          {
+            "id": 1,
+            "type": "desktop",
+            "comments": "hello"
+          }
+        ]
+      }
+    ]
+  }
+]

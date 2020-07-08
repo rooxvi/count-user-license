@@ -1,0 +1,27 @@
+Configuration:
+  status: info
+  Properties: 
+   Property:
+    -
+     name: log_pattern
+     value: '%d{yyyy-MM-dd HH:mm:ss.SSSXXX} %-5p [%M] %C:%M:%L - %m%n'
+  Appenders:
+    Console:
+      name: LogToConsole
+      target: SYSTEM_OUT
+      PatternLayout:
+        pattern: ${log_pattern}
+  Loggers: 
+   Logger: 
+    -
+     name: applogs
+     level: trace
+     additivity : false
+     includeLocation: true
+     AppenderRef:
+      - ref: LogToConsole
+   Root: 
+    level: error 
+    AppenderRef: 
+     - ref: LogToConsole
+           
